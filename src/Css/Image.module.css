@@ -1,0 +1,40 @@
+.img {
+    display: block;
+    margin-top: 10px;
+    width: 50%;
+    height: 500px;
+}
+.Containers {
+    display: none;
+}
+
+.prev{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    user-select: none;
+    right: 50%;
+    border-radius: 3px 0 0 3px;
+}
